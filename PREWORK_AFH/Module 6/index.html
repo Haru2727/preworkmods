@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jiggle Into JavaScript</title>
+    
+    
+</head>
+<body>
+
+    <p>Press the buttons to change the box!</p>
+
+    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+
+    <button id="button1"onclick="Grow()">Grow</button>
+    <button id="button2"onclick="Blue()">Blue</button>
+    <button id="button3"onclick="Fade()">Fade</button>
+    <button id="button4"onclick="Reset()">Reset</button>
+    <button id="button5"onclick="Green()">Green</button>
+    
+
+
+    <script type="text/javascript" src="javascript.js"></script>
+    
+
+
+
+<script>
+
+document.getElementById("button1").addEventListener("click", function Grow(){
+
+document.getElementById("box").style.height = "250px";
+});
+
+document.getElementById("button2").addEventListener("click", function Blue(){
+
+document.getElementById("box").style.backgroundColor = "blue";
+});
+
+
+document.getElementById("button3").addEventListener("click", function Fade(){
+
+document.getElementById("box").style.opacity = "0.5";
+});
+
+document.getElementById("button4").addEventListener("click", function Reset(){
+
+document.getElementById("box").style.height = "150px";
+});
+document.getElementById("button4").addEventListener("click", function Reset(){
+
+document.getElementById("box").style.opacity = "1";
+});
+document.getElementById("button4").addEventListener("click", function Reset(){
+
+document.getElementById("box").style.backgroundColor = "orange";
+});
+
+document.getElementById("button5").addEventListener("click", function Green(){
+    document.getElementById("box").style.backgroundColor = "green";
+});
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

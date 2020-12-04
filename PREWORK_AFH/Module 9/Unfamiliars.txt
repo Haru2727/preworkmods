@@ -1,0 +1,9 @@
+MySQL
+API development experience using J2EE or .Net 
+Working knowledge of REST Api Architecture
+PHP
+Reactjs
+ Angular.js
+ ASP.NET
+
+Some of these I looked up and understand its use slightly more.  
